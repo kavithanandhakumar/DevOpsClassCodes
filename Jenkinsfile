@@ -4,7 +4,7 @@ pipeline{
         stage("Checkout the code from github repo with akshat"){
             steps{
                 git url: 'https://github.com/akshu20791/DevOpsClassCodes'
-                echo 'checkout done'
+                echo 'checkout done merge'
             }
         }
         stage("compile the code"){
